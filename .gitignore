@@ -1,0 +1,8 @@
+#This tells Git to ignore:  virtual environment  : Python cache files : Any OS-specific junk
+venv/
+_pycache_/
+*.pyc
+*.pyo
+*.pyd
+.env
+.DS_Store
