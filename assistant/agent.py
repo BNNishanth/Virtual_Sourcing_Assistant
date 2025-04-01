@@ -1,11 +1,11 @@
 print(">>>agent.py loaded")
-
+import os
 from huggingface_hub import InferenceClient
 from assistant.prompt_templates import get_prompt
 
 client = InferenceClient(
     model="mistralai/Mistral-7B-Instruct-v0.1",
-    token="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"  # Replace with your token
+    token=os.getenv("HF_API_TOKEN")  # Replace with your token
 )
 
 def query_agent(user_input):
