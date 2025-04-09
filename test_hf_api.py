@@ -3,7 +3,7 @@ from huggingface_hub import InferenceClient
 # Replace this with your actual Hugging Face token
 client = InferenceClient(
     model="mistralai/Mistral-7B-Instruct-v0.1",
-    token="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"
+    token=""
 )
 
 prompt = "You are a helpful assistant. How can a sourcing manager reduce RFQ negotiation time?"
