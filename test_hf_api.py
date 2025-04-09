@@ -1,6 +1,6 @@
 from huggingface_hub import InferenceClient
 
-# Replace this with your actual Hugging Face token
+
 client = InferenceClient(
     model="mistralai/Mistral-7B-Instruct-v0.1",
     token=""
